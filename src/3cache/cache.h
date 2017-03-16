@@ -1,16 +1,19 @@
 /*
- * Copyright (C) 2005-2016 Christoph Rupp (chris@crupp.de).
+ * Copyright (C) 2005-2017 Christoph Rupp (chris@crupp.de).
  * All Rights Reserved.
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * This program is released under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
  *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
  *
  * See the file COPYING for License information.
  */
@@ -24,9 +27,6 @@
  * linked list, and whenever a page is accessed it is removed and re-inserted
  * at the head. The tail therefore points to the page which was not used
  * in a long time, and is the primary candidate for purging.
- *
- * @exception_safe: nothrow
- * @thread_safe: yes
  */
 
 #ifndef UPS_CACHE_H

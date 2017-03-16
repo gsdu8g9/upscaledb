@@ -1,5 +1,5 @@
 upscaledb 2.2.1                                   Fr 10. Mär 21:33:03 CET 2017
-(C) Christoph Rupp, chris@crupp.de; http://www.upscaledb.com
+(C) Christoph Rupp, chris@crupp.de; https://upscaledb.com
 
 This is the README file of upscaledb.
 
@@ -12,6 +12,8 @@ and easy to use.
 
 This release has a bunch of bug fixes, performance improvements and a new
 API for bulk operations.
+
+The license changed from GPLv3 to Apache Public License (APL) 2.0. 
 
 2. Changes
 
@@ -33,6 +35,7 @@ Bugfixes
 * Fixed compilation issues w/ gcc 6.2.1 (Thanks, Roel Brook)
 
 Other Changes
+* New license! upscaledb is now released under Apache Public License 2.0
 * Performance improvements when appending keys at the end of the database
 * The flags UPS_HINT_APPEND and UPS_HINT_PREPEND are now deprecated
 * Removed the libuv dependency; switched to boost::asio instead
@@ -148,11 +151,8 @@ and ups_import in the "tools" subdirectory.
 
 10. Licensing
 
-upscaledb is released under the GNU Public License (GPL) 3.0. See the
+upscaledb is released under the Apache Public License (APL) 2.0. See the
 file COPYING for more information.
-
-For commercial use licenses are available. Visit http://upscaledb.com
-for more information.
 
 11. Contact
 

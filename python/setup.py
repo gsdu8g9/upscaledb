@@ -14,5 +14,5 @@ setup(name='upscaledb-python',
       author_email='chris@crupp.de',
       url='http://upscaledb.com',
       description='The Python wrapper for upscaledb',
-      license='GNU Public License 3.0',
+      license='Apache Public License 2.0',
       ext_modules=[module1])
